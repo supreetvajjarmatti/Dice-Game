@@ -12,7 +12,10 @@ To get started with the project, follow these steps:
 
 ## Images
 
+Initial version of the game page
 
+
+<img width="947" alt="Dice game" src="https://github.com/supreetvajjarmatti/Dice-Game/assets/119556076/8610dcb0-5a02-4617-8ba8-57f6047b75d5">
 
 
 ## Navigate to the project directory:
