@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 
 const RoleDice = () => {
+
+const [currentDice, setCurrentDice] = useState();
+
+const generateRandomNumber = (min, max) => {
+  return Math.random() *(max-min)+min;
+}
+
   return (
     <DiceContainer>
       <div className='dice'>
@@ -19,6 +26,10 @@ display: flex;
 align-items : center;
 margin-top: 48px;
 flex-direction: column;
+
+.dice{
+  cursor: pointer;
+}
 
 p{
   font-size: 24px;
