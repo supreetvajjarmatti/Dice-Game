@@ -10,7 +10,7 @@ const GamePlay = () => {
       <div className='top_section'>
         <TotalScore></TotalScore>
       <NumberSelector></NumberSelector></div>
-      <RoleDice/>
+      <RoleDice></RoleDice>
     </MainContainer>
   )
 }
